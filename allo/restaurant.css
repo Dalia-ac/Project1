@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{font-family: "Playwrite AU VIC", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-decoration: none;
+   
+}
+header{
+    height: 100vh;
+    background-image:
+    linear-gradient( rgba(41, 31, 16, 0.411) , rgba(0, 0, 0, 0.801)),
+    url(Tasty\ pizza\ containing\ pizza\,\ food\,\ and\ italian.jpg);
+    
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    position: relative;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+    color: white;
+}
+    
+
+.navbar img{
+    width: 83px;
+    margin-left: 100px;
+    margin-top: 1px;
+}
+.navbar  nav ul{
+    
+    display: flex;
+    padding: 30px;
+    list-style: none;
+
+}
+.navbar nav  ul  a{
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 25px;
+    color: white;
+    font-weight: 600px;
+    border-bottom: 2px,solid, transparent;
+
+}
+
+.navbar ul  a:hover{
+    border-bottom-color:  rgb(250, 174, 11);
+}
+a{
+        text-decoration: none;
+}
+.contain{
+   
+    justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 75%;
+
+}
+.contain h1{
+
+font-size: 40px;
+color: rgb(255, 255, 255);
+}
+.contain p{
+     margin-top: 20px;
+     margin-bottom: 30px;
+     color: white;
+
+}
+.chef{
+    color: rgb(250, 174, 11);
+}
+
+    
+
+.button{
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    padding-left:30px ;
+    padding-right: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn1{
+    color: white;
+    border: 1px,solid, white;
+}
+.btn1:hover{
+    background-color: rgb(250, 174, 11) ;
+}
+.btn2{
+    color: white;
+    background-color: rgb(59, 57, 57) ;
+    margin-top: 20px;
+}
+.btn2:hover{
+    background-color: rgb(250, 174, 11) ;
+}
+.about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.container{
+   
+    max-width: 1000px;
+    margin: auto;
+}
+ .title{
+   text-align: center;
+   margin-bottom: 40px;
+   margin-top: 70px;
+}
+h2{
+    font-size: 40px;
+    color: rgb(59, 57, 57);
+    margin-bottom: 20px;
+
+}
+.about .title p{
+    font-size:15px ;
+    color: rgb(168, 168, 168);
+    font-weight: 500;
+}
+.about .about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.about .about-section img{
+    width: 400px;
+}
+.about .about-section p{
+    margin-right: 100px;
+    font-weight: 400;
+    color:rgb(168, 168, 168) ;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.offers{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(télécharger\ \(1\).jpg);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    margin-top: 150px;
+    
+   
+}
+.offers-items img{
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.offers-items h2{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-bottom: 1px;
+}
+.offers-items p{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 160px;
+}
+.offers .title h2{
+    color:rgb(250, 174, 11) ;
+}
+.offers .title p{
+    color: white;
+}
+.price{
+    color:rgb(250, 174, 11) ;
+    margin-left: 6px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.offers-items{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   
+}
+del{
+    font-size: 12px;
+}
+.menu{
+    margin-top: 100px;
+    
+}
+.menu .about-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu .about-menu img{
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 30px;
+}
+.menu .about-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.menu .about-menu h2{
+    font-size: 15px;
+    color:black;
+    margin-bottom: 10px;
+    border-bottom: 3px,solid ,black;
+}
+.menu .about-menu .ne{
+    font-size: 15px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -30px;
+    color:rgb(250, 174, 11) ;
+    font-weight: 600;
+    
+}
+.menu .about-menu .about-right{
+    margin-left: 300px;
+}
+.menu .about-menu .about-left{
+    margin-left: -200px;
+}
+section .btn{
+   margin-left: 560px;
+   background:rgb(250, 174, 11)  ;
+   color: white;
+   padding: 17px;
+   border-radius: 20%;
+   border-color: transparent;
+   margin-top: 30px;
+}
+section .btn:hover{
+    background-color:rgb(59, 57, 57) ;
+}
+.day-time{
+   
+    margin-top: 50px;    background-color:rgba(250, 174, 11, 0.836)  ;
+    height: 40vh;
+}
+.day-items{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.day-items .day-item h3{
+    color: white;
+    font-size: 30px;
+
+}
+.day-items .day-item p{    
+    color: white;
+    font-weight: 600;
+}
+.gallery .img-galery img{
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 20px;
+    opacity: 0.5;
+}
+.gallery .img-galery img:hover{
+    opacity: 1;
+}
+.galler{
+    text-align: center;
+}
+.img-galery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.gallery{
+    background-image: url(offer-background.jpg);
+    padding: 150px;
+}
+.galler h2{
+    color: white;
+    margin-bottom: 50px;
+}
+.contact{
+    padding: 100px;
+    padding-left: 200px;
+}
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info{
+    width: 50%;
+}
+.contact-info h3{
+    color:  rgb(59, 57, 57);
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+.contact-info div{
+    margin: 30px , 0;
+    line-height: 2;
+}
+.contact-info p{
+    color:rgb(168, 168, 168)  ;
+}
+.contact-info i{
+    color:rgb(250, 174, 11)  ;
+    margin-right: 10px;
+}
+.contact-info a i{
+    color: white;
+    background-color: rgb(59, 57, 57);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.contact-info a i:hover{
+    background-color:rgb(250, 174, 11) ;
+    color: rgb(59, 57, 57);
+}
+form{
+    width: 50%;
+}
+form input , textarea{
+    display: block;
+    width: 100%;
+    padding: 20px ;
+    margin: 20px;
+    background-color: rgba(247, 244, 241, 0.349);
+    border: none;
+}
+form .btn{
+    margin-left: 20px;
+}
+footer{
+    background-color: rgb(59, 57, 57) ;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
